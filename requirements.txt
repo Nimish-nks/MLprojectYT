@@ -1,0 +1,5 @@
+numpy
+pandas
+
+#this runs setup file itself when you pip install requirements
+#-e .
