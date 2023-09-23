@@ -1,8 +1,5 @@
 numpy
 pandas
-python-dotenv
-mysql-connector-python
-PyMySQL
 scikit-learn
 #this runs setup file itself when you pip install requirements
 #-e .
