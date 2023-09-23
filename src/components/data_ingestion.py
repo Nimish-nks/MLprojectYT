@@ -4,14 +4,14 @@ from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 
-from skearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str=os.path.join('artifact','train.csv')
-    train_data_path: str=os.path.join('artifact','test.csv')
+    test_data_path: str=os.path.join('artifacts','train.csv')
+    train_data_path: str=os.path.join('artifacts','test.csv')
     raw_data_path: str=os.path.join('artifacts','data.csv')
 
 
