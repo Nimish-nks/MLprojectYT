@@ -5,5 +5,6 @@ seaborn
 matplotlib
 catboost
 xgboost
+Flask
 #this runs setup file itself when you pip install requirements
 #-e .
